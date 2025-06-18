@@ -12,7 +12,7 @@ except ImportError as e:
     sys.exit(1)
 
 # === CONFIGURATION ===
-PORT = '/dev/cu.usbmodem154739401'   
+PORT = '/dev/cu.usbmodem154739401'   # set at correct port for computer
 BAUD = 115200
 MAX_POINTS = 500                
 UPDATE_INTERVAL_MS = 0          # 0 = as fast as your machine allows
